@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-add-apt-repository ppa:ubuntugis/ppa
-apt-get update
+#add-apt-repository ppa:ubuntugis/ppa
+#apt-get update
 
 apt-get install python-dev python-pip virtualenv -y
 # apt-get install gdal-bin -y
