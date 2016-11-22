@@ -8,6 +8,7 @@ export DEBIAN_FRONTEND=noninteractive
 # more up-to-date gis libraries
 add-apt-repository ppa:ubuntugis/ppa
 apt-get update
+apt-get upgrade
 
 # python tools
 apt-get install -y \

@@ -13,4 +13,4 @@ After following these steps you will be logged into the virtual machine and read
 #### Resources
 * vagrant getting started [guide](https://www.vagrantup.com/docs/getting-starte)
 * [bugfix](http://stackoverflow.com/questions/40477731) for vagrant 1.8.7 on macOS Sierra
-* [bugfix](http://stackoverflow.com/questions/40531738) for virtualbox 5.1.8 on macOS Sierra
+* [bugfix](http://stackoverflow.com/questions/40531738) for virtualbox 5.1.8 on all platforms
