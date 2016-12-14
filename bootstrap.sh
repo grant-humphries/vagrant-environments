@@ -2,7 +2,7 @@
 
 # stop on error and suppress any user prompts
 set -e
-export DEBIAN_FRONTEND=noninteractive
+export DEBIAN_FRONTEND='noninteractive'
 
 # adding the ubunutugis repo to apt provides across to additional and
 # more up-to-date gis libraries
