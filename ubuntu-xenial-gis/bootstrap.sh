@@ -33,12 +33,4 @@ pip install \
     zc.buildout \
     bpython
 
-# get dotfiles from git repo and deploy them (this set of commands
-# needs to be carried out as the 'user' specified below so permissions
-# are correct)
-user='ubuntu'
-user_home="/home/${user}"
-cd "${user_home}"
-
-su -c 'git clone https://github.com/grant-humphries/dotfiles.git' "${user}"
-su -c "${user_home}/dotfiles/scripts/symlink.sh" "${user}"
+source ../bootstrap-scripts/install_dotfiles.sh 'ubuntu'
