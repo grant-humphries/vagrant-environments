@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
 
-# stop on error and suppress any user prompts
 set -e
 export DEBIAN_FRONTEND='noninteractive'
 
-# adding the ubunutugis repo to apt provides across to additional and
+# adding the ubuntugis repo to apt provides across to additional and
 # more up-to-date gis libraries
 add-apt-repository ppa:ubuntugis/ppa
 apt-get update
-apt-get upgrade
 
 # python tools
 apt-get install -y \
@@ -32,5 +30,3 @@ pip install --upgrade pip
 pip install \
     zc.buildout \
     bpython
-
-source ../bootstrap-scripts/install_dotfiles.sh 'ubuntu'
