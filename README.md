@@ -11,4 +11,5 @@ This repo contains files that are drawn upon by vagrant to generate virtual mach
 After following these steps you will be logged into the virtual machine and ready to begin development.
 
 #### Resources
-* vagrant getting started [guide](https://www.vagrantup.com/docs/getting-started)
+* Vagrant getting started [guide](https://www.vagrantup.com/docs/getting-started)
+* [Using](https://developer.rackspace.com/blog/a-tutorial-on-application-development-using-vagrant-with-the-pycharm-ide/) vagrant with PyCharm
